@@ -336,7 +336,7 @@ footer .redes a:hover{
 }
 
 /*Mobiles*/
-@media screen and (max-width:400px){
+@media screen and (max-width:300px){
      .intro img{
         display: block;
         margin: auto;
@@ -347,6 +347,7 @@ footer .redes a:hover{
     }
     .texto{
     overflow:hidden;
+        margin:auto;
     }
 }
  @media screen and (max-width:500px){
