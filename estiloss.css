@@ -343,6 +343,11 @@ footer .redes a:hover{
         font-family: consolas;
         
     }
+     .main{
+         overflow:hidden;
+         width:90%;
+         margin:auto;
+     }
     input[type="checkbox"]
     {
         position: fixed;
