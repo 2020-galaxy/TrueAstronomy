@@ -344,7 +344,7 @@ footer .redes a:hover{
         
     }
      .main{
-         overflow:hidden;
+         overflow:auto;
          width:90%;
          margin:auto;
      }
