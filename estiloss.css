@@ -337,13 +337,18 @@ footer .redes a:hover{
 }
 
 /*Mobiles*/
- @media screen and (max-width:500px){
+ @media screen and (max-width:600px){
     body{
         margin: 0;
         padding: 0;
         font-family: consolas;
         
     }
+     .texto{
+         overflow:hidden;
+         max-width:100%;
+         margin:auto;
+     }
     input[type="checkbox"]
     {
         position: fixed;
