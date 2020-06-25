@@ -340,7 +340,7 @@ footer .redes a:hover{
         margin: 0;
         padding: 0;
         font-family: consolas;
-        overflow:auto;
+        
     }
     
     input[type="checkbox"]
@@ -472,6 +472,7 @@ footer .redes a:hover{
         transform: translateY(10%);
         margin-left: 15px;
         text-align: justify;
+        overflow:hidden;
     }
     .item1{
         margin: 0.5em;
@@ -490,6 +491,7 @@ footer .redes a:hover{
         padding:0.5em ; 
         margin-left: 5px;
         text-align: justify;
+        overflow:hidden;
     }
     .item2{
         margin: 0.5em;
