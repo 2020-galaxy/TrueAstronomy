@@ -360,7 +360,7 @@ footer .redes a:hover{
         transition: 0.5s;
     }
 }
- @media screen and (max-width:600px){
+ @media screen and (max-width:500px){
     body{
         margin: 0;
         padding: 0;
@@ -425,6 +425,7 @@ footer .redes a:hover{
         transition: 0.5s;
         z-index: 100000;
         overflow-y: auto;
+        flex-wrap:wrap;
     
     }
     input[type="checkbox"]:checked ~  nav{
