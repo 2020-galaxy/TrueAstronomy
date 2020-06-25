@@ -344,11 +344,7 @@ footer .redes a:hover{
         
     }
      .main{
-         overflow:hidden;
-         width:90%;
-         max-width:400px;
-         margin:auto;
-         border:box;
+         overflow-x:hidden;
      }
     input[type="checkbox"]
     {
