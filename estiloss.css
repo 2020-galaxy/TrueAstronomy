@@ -2,6 +2,7 @@
 body{
     background-image: url(imag/fond1.jpg);
 }
+
 /*Encabezado*/
 header{
     width: 100%;
@@ -335,14 +336,13 @@ footer .redes a:hover{
 }
 
 /*Mobiles*/
- @media screen and (max-width:600px){
+ @media screen and (max-width:500px){
     body{
         margin: 0;
         padding: 0;
         font-family: consolas;
         
     }
-    
     input[type="checkbox"]
     {
         position: fixed;
@@ -396,7 +396,7 @@ footer .redes a:hover{
         transition: 0.5s;
         z-index: 100000;
         overflow-y: auto;
-        flex-wrap:wrap;
+    
     }
     input[type="checkbox"]:checked ~  nav{
         left: -300px;
@@ -410,13 +410,13 @@ footer .redes a:hover{
     nav ul li a{
         display: inline-block;
         color: #fff;
-      line-height: 1.5em;
+      line-height: 1em;
       margin: 0;
       left: 0;
       top: 0;
       padding: 50px 20px;
         text-decoration: none;
-        font-size: 32px;
+        font-size: 24px;
         font-weight: 700;
         transition: 0.5s;
     }
@@ -525,12 +525,12 @@ footer .redes a:hover{
         transform: translateY(-10%);
     }
     .contenedor2 img{
-        height: 310px;
+        height: 300px;
         width: 120px;
         margin-top: 40px;
     }
     .contenedor img{
-        height:310px ;
+        height:300px ;
         width: 120px;
         margin-top: 40px;
     }
@@ -614,7 +614,7 @@ footer .redes a:hover{
         
       }
 }
-@media screen and (min-width:1000px){
+@media screen and (min-width:800px){
     .intro img{
         height:300px ;
         width:600px ;
@@ -649,6 +649,73 @@ footer .redes a:hover{
         
         opacity: -1;
     }  
-   
-   
+   .intro img{
+       width: 200px;
+       height: 420px;
+       transform: translateY(1%);
+   }
+   header nav a:hover{
+    background: none;
+    color: rgb(7, 223, 223);
+    border-radius: 40px;
+    transform: translateY(-10px);
 }
+.partes{
+    margin-top: 1900px;
+}
+.partes img{
+    width: 500px;
+    height: 500px;
+}
+.contener {
+   
+    transform: translateY(140%);
+}
+.let{
+    transform: translateY(170%);
+    font-size: x-large;
+    margin-bottom: -70px;
+}
+.contenedor2 .item3{
+    transform: translateY(20%);
+}
+}
+@media screen and (min-width:1000px){
+    .intro img{
+        height:400px ;
+        width:600px ;
+    }
+    .contener{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .linea img{
+        height:550px ;
+        width:600px ;
+        margin-left: 20px;
+}
+.linea{
+    padding:30px ;
+    transform: translateY(-15%);
+    align-content: center;
+    
+}
+item3{
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    transform: translateY(-97%);
+    margin-right: 10px;
+}
+}
+
+
+  
+
+
