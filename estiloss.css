@@ -395,7 +395,7 @@ footer .redes a:hover{
         transition: 0.5s;
         z-index: 100000;
         overflow-y: auto;
-    
+        flex-wrap:wrap;
     }
     input[type="checkbox"]:checked ~  nav{
         left: -300px;
@@ -409,7 +409,7 @@ footer .redes a:hover{
     nav ul li a{
         display: inline-block;
         color: #fff;
-      line-height: 1em;
+      line-height: 1.2em;
       margin: 0;
       left: 0;
       top: 0;
