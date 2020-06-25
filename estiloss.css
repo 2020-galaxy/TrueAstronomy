@@ -77,7 +77,6 @@ h1{
 .intro img{
     height:400px ;
     width:600px ;
-    max-width:1000px;
 }
 
 body{
@@ -337,17 +336,6 @@ footer .redes a:hover{
 }
 
 /*Mobiles*/
-@media screen and (max-width:300px){
-    .intro img{
-        display: block;
-        margin: auto;
-        height:100px ;
-        width:200px ;
-        float:none;
-      
-    }
-      
-}
  @media screen and (max-width:500px){
     body{
         margin: 0;
@@ -355,7 +343,6 @@ footer .redes a:hover{
         font-family: consolas;
         
     }
-}
     input[type="checkbox"]
     {
         position: fixed;
@@ -693,5 +680,42 @@ footer .redes a:hover{
     transform: translateY(20%);
 }
 }
+@media screen and (min-width:1000px){
+    .intro img{
+        height:400px ;
+        width:600px ;
+    }
+    .contener{
+        width: 100%;
+        max-width: 1200px;
+        height: 430px;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+        
+    }
+    .linea img{
+        height:550px ;
+        width:600px ;
+        margin-left: 20px;
+}
+.linea{
+    padding:30px ;
+    transform: translateY(-15%);
+    align-content: center;
+    
+}
+item3{
+    margin: 1em;
+    padding: 1em;
+    float: right;
+    transform: translateY(-97%);
+    margin-right: 10px;
+}
+}
+
+
+  
 
 
