@@ -409,13 +409,13 @@ footer .redes a:hover{
     nav ul li a{
         display: inline-block;
         color: #fff;
-      line-height: 1.2em;
+      line-height: 1.5em;
       margin: 0;
       left: 0;
       top: 0;
       padding: 50px 20px;
         text-decoration: none;
-        font-size: 24px;
+        font-size: 28px;
         font-weight: 700;
         transition: 0.5s;
     }
@@ -526,12 +526,12 @@ footer .redes a:hover{
     .contenedor2 img{
         height: 300px;
         width: 120px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .contenedor img{
         height:300px ;
         width: 120px;
-        margin-top: 40px;
+        margin-top: 45px;
     }
     .linea{
         transform: translateY(-50px);
