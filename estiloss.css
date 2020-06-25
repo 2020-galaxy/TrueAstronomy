@@ -57,7 +57,7 @@ header h1 span:hover{
 
 .texto{
     padding-top: 0;
-    width: 100%;
+    max-width: 100%;
     
     margin: auto;
 }
@@ -75,7 +75,7 @@ h1{
    text-shadow:rgb(102, 138, 138) 4px 0;
 }
 .intro img{
-    height:400px ;
+    height:390px ;
     width:600px ;
 }
 
@@ -125,6 +125,7 @@ body h2{
     text-align: justify;
     flex-direction: column;
     flex-wrap: wrap;
+
 }
 .item1{
     margin: 1em;
