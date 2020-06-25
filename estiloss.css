@@ -335,7 +335,7 @@ footer .redes a:hover{
 }
 
 /*Mobiles*/
- @media screen and (max-width:400px){
+ @media screen and (max-width:500px){
     body{
         margin: 0;
         padding: 0;
