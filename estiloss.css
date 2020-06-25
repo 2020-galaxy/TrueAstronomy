@@ -345,13 +345,7 @@ footer .redes a:hover{
         transform: translateY(5px);
         float: none;
     }
-      .linea h3{
-        transform: translateY(-330px);
-        text-align: center;
-        -webkit-text-fill-color: rgb(0, 0, 0);
-        -webkit-text-stroke: 1px;
-        -webkit-text-stroke-color: cadetblue;
-    }
+      
 }
  @media screen and (max-width:500px){
     body{
