@@ -340,7 +340,7 @@ footer .redes a:hover{
         margin: 0;
         padding: 0;
         font-family: consolas;
-        overflow:hidden;
+        overflow:auto;
     }
     
     input[type="checkbox"]
