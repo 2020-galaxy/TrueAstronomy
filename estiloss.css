@@ -342,8 +342,7 @@ footer .redes a:hover{
         margin: auto;
         height:100px ;
         width:200px ;
-        transform: translateY(5px);
-        float: none;
+      
     }
       
 }
