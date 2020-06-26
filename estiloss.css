@@ -359,6 +359,11 @@ footer .redes a:hover{
         font-weight: 700;
         transition: 0.5s;
     }
+    h1{
+     font-size:15px;   
+    color: aqua;
+   text-shadow:rgb(102, 138, 138) 4px 0;
+}
 }
  @media screen and (max-width:500px){
     body{
