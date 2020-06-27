@@ -633,6 +633,7 @@ footer .redes a:hover{
     }
     .partes{
         margin-top: 1450px;
+        flex-wrap:wrap;
     }
     .primero h3{
         font-size: small;
