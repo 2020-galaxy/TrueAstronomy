@@ -341,8 +341,8 @@ footer .redes a:hover{
  .intro img{
         display: block;
         margin: auto;
-        height:100px ;
-        width:200px ;
+        height:75px ;
+        width:175px ;
         transform: translateY(5px);
         float: none;
     }
