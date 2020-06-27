@@ -365,7 +365,7 @@ footer .redes a:hover{
    text-shadow:rgb(102, 138, 138) 4px 0;
 }
 }
- @media screen and (max-width:500px){
+ @media screen and (max-width:900px){
     body{
         margin: 0;
         padding: 0;
